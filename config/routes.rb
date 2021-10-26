@@ -1,3 +1,5 @@
 Trestle::Engine.routes.draw do
-  get '/rake_tasks', constraints: Trestle::Auth::Constraint.new
+  controller "trestle/rake_tasks/tasks" do
+    get 'test'
+  end
 end
