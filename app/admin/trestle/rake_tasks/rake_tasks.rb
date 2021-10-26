@@ -1,0 +1,1 @@
+Trestle.admin(:rake_tasks, scope: Trestle::RakeTasks, path: "rake_tasks")
